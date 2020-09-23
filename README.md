@@ -9,6 +9,7 @@ seeds the body of the email with some sample text.
 The enagement landing page can be found here: https://sites.google.com/view/achatwithbouldercitycouncil/home
 
 The second tool is similar to the first but allows the user to text individual members of council.  
+https://sites.google.com/view/textbouldercitycouncil/home
 
 Thoughts for future refinement. 
 Add BCC field to the email tool.
