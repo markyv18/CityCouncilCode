@@ -1,0 +1,467 @@
+<body>
+
+  <div role="main" class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="jumbotron">
+          <p>Hello! And welcome! Thank you for assisting us in making Boulder a more just and equitable place!  We realize that communicating with Council can be difficult and coming up with what to say a real ordeal!  We hope you can spare a minute or two in order to convey an important message! :) </p>
+          <p><b>Choose one of the following messages, perhaps the one that best expresses how you feel about the current situation. </b> This will prepopulate the emails for the Chief of Police, all City Councilors, the City Manager, and the City Attoreny in your email client.</p>
+          <p><i>If you do not have an email client installed try doing this on your mobile device.</i></p>
+          <p><b>The body and subject line will have content but you should use it as inspiration and add your own
+              message so this does not get dismissed as a form email.</b></p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+
+    </div>
+    <div class="row">
+      <a class="col-sm-6 click-box alert alert-primary" onclick="handleMail(1,this)">
+        <div class="">1 - Remember that time the community had to protest racial profiling and police violence after Boulder PD drew weapons on Zayd Atkinson for cleaning his yard while black?</div>
+      </a>
+      <a class="col-sm-6 click-box alert alert-primary" onclick="handleMail(2,this)">
+        <div class="">2 - You remember, the time the cops barricaded, chained and zip-tied the doors of the police station in fear of the peacefully demonstrating citizens they protect and serve?</div>
+      </a>
+    </div>
+    <div class="row">
+      <a class="col-sm-6 click-box alert alert-primary" onclick="handleMail(3,this)">
+        <div class="">3 - You remember, the protests after which chief Testa and officer Smyly bailed?</div>
+      </a>
+      <a class="col-sm-6 click-box alert alert-primary" onclick="handleMail(4,this)">
+        <div class="">4 - You remember, the protests after which city council and staff agreed to implement a police oversight program?</div>
+      </a>
+    </div>
+    <!-- <p></p>
+    <div class="row">
+      <a class="col-sm-6 click-box alert alert-primary" onclick="handleMail(5,this)">
+        <div class="">Next</div>
+      </a>  -->
+      <!-- <a class="col-sm-6 click-box alert alert-primary" onclick="handleMail(6,this)">
+        <div class="">6 - Paul Kashmann</div>
+      </a>
+    </div> -->
+    <!--
+    <div class="row">
+      <a class="col-sm-6 click-box alert alert-primary" onclick="handleMail(7,this)">
+        <div class="">7 - Jolon Clark</div>
+      </a>
+      <a class="col-sm-6 click-box alert alert-primary" onclick="handleMail(8,this)">
+        <div class="">8 - Christopher Herndon</div>
+      </a>
+    </div>
+    <div class="row">
+      <a class="col-sm-6 click-box alert alert-primary" onclick="handleMail(9,this)">
+        <div class="">9 - Candi CdeBaca</div>
+      </a>
+      <a class="col-sm-6 click-box alert alert-primary" onclick="handleMail(10,this)">
+        <div class="">10 - Chris Hinds</div>
+      </a>
+    </div>
+    <div class="row">
+      <a class="col-sm-6 click-box alert alert-primary" onclick="handleMail(11,this)">
+        <div class="">11 - Stacie Gilmore</div>
+      </a>
+      <a class="col-sm-6 click-box alert alert-primary" onclick="handleMail(0,this)">
+        <div class="">Not sure but let me continue anyway</div>
+      </a>
+    </div> -->
+
+  </div>
+
+  <footer class="container">
+    <div class="row"></div>
+    <p>© BBL 2020</p>
+  </footer>
+</body>
+<script>
+  function handleMail(district, b, c) {
+    const baseSubject = `The%20Need%20for%20police%20Oversight`;
+    let subject = baseSubject;
+    let body = 'I%20am%20emailing%20you%20to%20express%20my%20strong%20support%20for%20the%20expansion%20of%20Open%20and%20Shared%20Streets%20in%20Denver.%20This%20includes%20a%20permanent%20change%20to%20Denver%20Parks%20to%20continue%20to%20make%20them%20car-free.%0A%0AA%20quick%20trip%20to%20our%20parks%20will%20illustrate%20why%20this%20is%20necessary.%20Watching%20families%20walk%20and%20ride%20safely%20is%20evidence%20enough.%20Parks%20should%20be%20accessible%20to%20all%20but%20this%20does%20not%20necessitate%20car%20travel%20within%20them.%0A%0ADenver%20also%20saw%20a%20dramatic%20reduction%20in%20road%20violence%20while%20we%20implemented%20Shared%20Streets.%20It%20is%20imperative%20that%20we%20continue%20and%20expand%20the%20use%20of%20these%20streets%20so%20people%20in%20Denver%20can%20continue%20to%20walk%20and%20bike%20safely.%0A%0APlease%2C%20let%20us%20build%20the%20city%20we%20want%20and%20not%20just%20keep%20the%20one%20we%20have.%20If%20this%20pandemic%20has%20shown%20us%20anything%20it%20is%20that%20we%20can%20act%20quickly%20and%20no%20longer%20can%20accept%20the%20status%20quo.
+Do%20you%20remember,%20the%20protests%20after%20which%20city%20council%20and%20staff%20agreed%20to%20implement%20a%20police%20oversight%20program?
+Do%20you%20remember,%20the%20protests%20after%20which%20chief%20Testa%20and%20officer%20Smyly%20bailed?
+Do%20you%20remember,%20the%20time%20the%20cops%20barricaded,%20chained%20and%20zip-tied%20the%20doors%20of%20the%20police%20station%20in%20fear%20of%20the%20peacefully%20demonstrating%20citizens%20they%20protect%20and%20serve?
+
+%20%20%20%20Remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.
+%20%20%20%20';
+
+    %0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-
+
+    <a href="sms:+15122935529&body=Hi%2520there%252C%2520I%2527d%2520like%2520to%2520place%2520an%2520order%2520for...">Click here to text us!</a>
+
+
+    let toEmail = `mailto:Michael.Hancock@denvergov.org,alan.salazar@denvergov.org,brooks@milenderwhite.com,dencc@denvergov.org,parksandrecreation@denvergov.org?bcc=happy.haynes@denvergov.org,ERRC@denvergov.org,kniechatlarge@denvergov.org,ortegaatlarge@denvergov.org,info@dbl.bike,Eulois.Cleckley@denvergov.org,john.paterson@denvergov.org,SamVPRAB@gmail.com,rtonysmith@mac.com,Tashmesia.Mitchell@gmail.com,marlarod2400@gmail.com,frnavarro@comcast.net,Trena_Jones@dpsk12.org`
+    let councilEmail = '';
+    switch (district) {
+      case 0:
+
+heroldm@bouldercolorado.gov
+
+        break;
+      case 1:
+        toEmail = `${toEmail},districtone@denvergov.org,ndcopeland@aol.com`;
+        break;
+      case 2:
+        toEmail = `${toEmail},kevin.flynn@denvergov.org,fran@francolemancc2.com`;
+        break;
+      case 3:
+        toEmail = `${toEmail},jamie.torres@denvergov.org,DenverParksLee@gmail.com`;
+        break;
+      case 4:
+        toEmail = `${toEmail},kendra.black@denvergov.org,fxrowe@gmail.com`;
+        break;
+      case 5:
+        toEmail = `${toEmail},amanda.sawyer@denvergov.org,meredithprab@gmail.com`;
+        break;
+      case 6:
+        toEmail = `${toEmail},paul.kashmann@denvergov.org,lynnegarramone@gmail.com`;
+        break;
+      case 7:
+        toEmail = `${toEmail},jolon.clark@denvergov.org,drichld7@yahoo.com`;
+        break;
+      case 8:
+        toEmail = `${toEmail},christopher.herndon@denvergov.org,lholben@hotmail.com`;
+        break;
+      case 9:
+        toEmail = `${toEmail},district9@denvergov.org,Lisa.Calderon@denvergov.org`;
+        break;
+      case 10:
+        toEmail = `${toEmail},chris.hinds@denvergov.org,mmckinleyprab@gmail.com`;
+        break;
+      case 11:
+        toEmail = `${toEmail},stacie.gilmore@denvergov.org,MarkBrownPRAB@gmail.com`;
+        break;
+      default:
+        console.log('what ' + district);
+    }
+    toEmail = `${toEmail},&subject=${subject}&body=${body}`;
+    b.href = toEmail;
+  }
+</script>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="The Denver Bicycle Lobby">
+
+  <meta property="og:url" content="http://dbl.bike/" />
+  <neta property="og:type" content="website" />
+  <meta property="og:title" content="Denver Bicycle Lobby" />
+  <meta property="og:description" content="Email your elected for open and shared streets!" />
+  <meta property="og:image"
+    content="https://s3-us-west-2.amazonaws.com/denverbicyclelobby.com/img/DBL-logo-small.jpg" />
+  <title>Denver Bicycle Lobby</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity=""
+    crossorigin="anonymous">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .dbl-header {
+      background-image: url(https://s3-us-west-2.amazonaws.com/denverbicyclelobby.com/img/stop+killing+us.jpeg);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+
+    .swag-image {
+      width: 120px;
+    }
+
+    .swag-media {
+      margin-bottom: 16px;
+    }
+
+    #cycling-the-seasons {
+      max-width: 300px;
+    }
+
+    .red-text {
+      color: red
+    }
+
+    .large-text {
+      font-size: larger;
+    }
+
+    .click-box {
+      border-width: 2px;
+      border-color: blue;
+      cursor: pointer;
+    }
+  </style>
+  <!-- Custom styles for this template -->
+  <link href="https://getbootstrap.com/docs/4.0/examples/jumbotron/jumbotron.css" rel="stylesheet">
+  <link rel="icon" type="image/png"
+    href="https://s3-us-west-2.amazonaws.com/denverbicyclelobby.com/img/android-chrome-192x192.png">
+  <script src="https://kit.fontawesome.com/2b604016cb.js"></script>
+  <noscript>You need javascript for this to work. Sorry.</noscript>
+</head>
+
+<body>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Denver Bicycle Lobby">
+  <meta property="og:description" content="Email your elected for open and shared streets!">
+  <meta property="og:image" content="https://s3-us-west-2.amazonaws.com/denverbicyclelobby.com/img/DBL-logo-small.jpg">
+  <title>Denver Bicycle Lobby</title>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="http://denverbicyclelobby.com/">Denver Bicycle Lobby</a>
+    <button class="navbar-toggler d-none" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+
+  <div role="main" class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="jumbotron">
+          <p><b>Click the box below that matches your Denver City Council District.</b> This will prepopulate the emails
+            for
+            the Mayor, City Council, Director of the Department of Transportation, Parks Board members, as well as your
+            specific city councilor and parks board member in your email client.</p>
+          <p><i>If you do not have an email client installed try doing this on your mobile device.</i></p>
+          <p><b>The body and subject line will have content but you should use it as inspiration and add your own
+              message
+              so this does not get dismissed as a form email.</b></p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+
+        <p><i>Don't know your district?</i>&nbsp;Find your Denver City Council District <a
+            href="https://www.denvergov.org/maps/map/councildistricts" target="_blank">here</a>.
+        </p>
+
+    </div>
+    <div class="row">
+      <a class="col-sm-6 click-box alert alert-primary" onclick="handleMail(1,this)">
+        <div class="">1 - Amanda Sandoval</div>
+      </a> <a class="col-sm-6 click-box alert alert-primary" onclick="handleMail(2,this)">
+        <div class="">2 - Kevin Flynn</div>
+      </a>
+    </div>
+    <div class="row">
+      <a class="col-sm-6 click-box alert alert-primary" onclick="handleMail(3,this)">
+        <div class="">3 - Jamie Torres</div>
+      </a> <a class="col-sm-6 click-box alert alert-primary" onclick="handleMail(4,this)">
+        <div class="">4 - Kendra Black</div>
+      </a>
+    </div>
+    <div class="row">
+      <a class="col-sm-6 click-box alert alert-primary" onclick="handleMail(5,this)">
+        <div class="">5 - Amanda Sawyer</div>
+      </a> <a class="col-sm-6 click-box alert alert-primary" onclick="handleMail(6,this)">
+        <div class="">6 - Paul Kashmann</div>
+      </a>
+    </div>
+    <div class="row">
+      <a class="col-sm-6 click-box alert alert-primary" onclick="handleMail(7,this)">
+        <div class="">7 - Jolon Clark</div>
+      </a> <a class="col-sm-6 click-box alert alert-primary" onclick="handleMail(8,this)">
+        <div class="">8 - Christopher Herndon</div>
+      </a>
+    </div>
+    <div class="row">
+      <a class="col-sm-6 click-box alert alert-primary" onclick="handleMail(9,this)">
+        <div class="">9 - Candi CdeBaca</div>
+      </a> <a class="col-sm-6 click-box alert alert-primary" onclick="handleMail(10,this)">
+        <div class="">10 - Chris Hinds</div>
+      </a>
+    </div>
+    <div class="row">
+      <a class="col-sm-6 click-box alert alert-primary" onclick="handleMail(11,this)">
+        <div class="">11 - Stacie Gilmore</div>
+      </a>
+      <a class="col-sm-6 click-box alert alert-primary" onclick="handleMail(0,this)">
+        <div class="">Not sure but let me continue anyway</div>
+      </a>
+    </div>
+
+  </div>
+
+  <footer class="container">
+    <div class="row"></div>
+    <p>© DBL 2020</p>
+  </footer>
+</body>
+<script>
+  function handleMail(district, b, c) {
+    const baseSubject = `Support%20for%20changes%20to%20our%20streets`;
+    let subject = district > 0 ? `${baseSubject} in District ${district}` : baseSubject;
+    let body = 'I%20am%20emailing%20you%20to%20express%20my%20strong%20support%20for%20the%20expansion%20of%20Open%20and%20Shared%20Streets%20in%20Denver.%20This%20includes%20a%20permanent%20change%20to%20Denver%20Parks%20to%20continue%20to%20make%20them%20car-free.%0A%0AA%20quick%20trip%20to%20our%20parks%20will%20illustrate%20why%20this%20is%20necessary.%20Watching%20families%20walk%20and%20ride%20safely%20is%20evidence%20enough.%20Parks%20should%20be%20accessible%20to%20all%20but%20this%20does%20not%20necessitate%20car%20travel%20within%20them.%0A%0ADenver%20also%20saw%20a%20dramatic%20reduction%20in%20road%20violence%20while%20we%20implemented%20Shared%20Streets.%20It%20is%20imperative%20that%20we%20continue%20and%20expand%20the%20use%20of%20these%20streets%20so%20people%20in%20Denver%20can%20continue%20to%20walk%20and%20bike%20safely.%0A%0APlease%2C%20let%20us%20build%20the%20city%20we%20want%20and%20not%20just%20keep%20the%20one%20we%20have.%20If%20this%20pandemic%20has%20shown%20us%20anything%20it%20is%20that%20we%20can%20act%20quickly%20and%20no%20longer%20can%20accept%20the%20status%20quo.';
+    let toEmail = `mailto:Michael.Hancock@denvergov.org,alan.salazar@denvergov.org,brooks@milenderwhite.com,dencc@denvergov.org,parksandrecreation@denvergov.org?bcc=happy.haynes@denvergov.org,ERRC@denvergov.org,kniechatlarge@denvergov.org,ortegaatlarge@denvergov.org,info@dbl.bike,Eulois.Cleckley@denvergov.org,john.paterson@denvergov.org,SamVPRAB@gmail.com,rtonysmith@mac.com,Tashmesia.Mitchell@gmail.com,marlarod2400@gmail.com,frnavarro@comcast.net,Trena_Jones@dpsk12.org`
+    let councilEmail = '';
+    switch (district) {
+      case 0:
+
+        break;
+      case 1:
+        toEmail = `${toEmail},districtone@denvergov.org,ndcopeland@aol.com`;
+        break;
+      case 2:
+        toEmail = `${toEmail},kevin.flynn@denvergov.org,fran@francolemancc2.com`;
+        break;
+      case 3:
+        toEmail = `${toEmail},jamie.torres@denvergov.org,DenverParksLee@gmail.com`;
+        break;
+      case 4:
+        toEmail = `${toEmail},kendra.black@denvergov.org,fxrowe@gmail.com`;
+        break;
+      case 5:
+        toEmail = `${toEmail},amanda.sawyer@denvergov.org,meredithprab@gmail.com`;
+        break;
+      case 6:
+        toEmail = `${toEmail},paul.kashmann@denvergov.org,lynnegarramone@gmail.com`;
+        break;
+      case 7:
+        toEmail = `${toEmail},jolon.clark@denvergov.org,drichld7@yahoo.com`;
+        break;
+      case 8:
+        toEmail = `${toEmail},christopher.herndon@denvergov.org,lholben@hotmail.com`;
+        break;
+      case 9:
+        toEmail = `${toEmail},district9@denvergov.org,Lisa.Calderon@denvergov.org`;
+        break;
+      case 10:
+        toEmail = `${toEmail},chris.hinds@denvergov.org,mmckinleyprab@gmail.com`;
+        break;
+      case 11:
+        toEmail = `${toEmail},stacie.gilmore@denvergov.org,MarkBrownPRAB@gmail.com`;
+        break;
+      default:
+        console.log('what ' + district);
+    }
+    toEmail = `${toEmail},&subject=${subject}&body=${body}`;
+    b.href = toEmail;
+  }
+</script>
+
+</html>
+
+mailto:council@bouldercolorado.gov?&cc=heroldm@bouldercolorado.gov&subject=The%20Need%20for%20police%20Oversight&body=Hello%20Council%20and%20Chief%20Herold,%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-
+<script>
+  function getMobileOperatingSystem() {
+  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+    if (/android/i.test(userAgent)) {
+        return <div>
+                  <p><a     href="sms:+13034166130;body=Hello%20Sam!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Android Text</a> or
+                  <a href="sms:+13034166130&body=Hello%20Sam!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">iOS Text</a> Sam Weaver</p>
+
+                  <p><a href="sms:+17203105829;body=Hello%20Bob!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Android Text</a> or
+                  <a href="sms:+17203105829&body=Hello%20Bob!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">iOS Text</a> Bob Yates</p>
+
+                  <p><a href="sms:+13038184128;body=Hello%20Mirabai!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Android Text</a> or
+                  <a href="sms:+13038184128&body=Hello%20Mirabai!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">iOS Text</a> Mirabai Nagle</p>
+
+                  <p><a href="sms:+17206108580;body=Hello%20Adam!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Android Text</a> or
+                  <a href="sms:+17206108580&body=Hello%20Adam!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">iOS Text </a>Adam Swetlick</p>
+
+                  <p><a href="sms:+17206019977;body=Hello%20Mark!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Android Text</a> or
+                  <a href="sms:+17206019977&body=Hello%20Mark!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">iOS Text</a> Mark Wallach</p>
+
+                  <p><a href="sms:+13035012439;body=Hello%20Mary!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Android Text</a> or
+                  <a href="sms:+13035012439&body=Hello%20Mary!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">iOS Text </a>Mary Dolo-Young </p>
+
+                  <p><a href="sms:+17209841863;body=Hello%20Aaron!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Android Text</a> or
+                  <a href="sms:+17209841863&body=Hello%20Aaron!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">iOS Text</a> Aaron Brockett</p>
+
+                  <p><a href="sms:+17207893234;body=Hello%20Junie!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Android Text</a> or
+                  <a href="sms:+17207893234&body=Hello%20Junie!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">iOS Text</a> Junie Joseph</p>
+
+                  <p><a href="sms:+17206010163;body=Hello%20Rachel!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Android Text</a> or
+                  <a href="sms:+17206010163&body=Hello%20Rachel!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">iOS Text </a> Rachel Friend</p>
+
+                  <p>Thank you, we greatly appreciate your help in conveying the importance of this matter with Council. </p>
+              </div>;
+    }
+
+    // iOS detection from: http://stackoverflow.com/a/9039885/177710
+    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+      return <div>
+                <p><a     href="sms:+13034166130&body=Hello%20Sam!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Text Sam Weaver</a> at 303.416.6130</p>
+                <p><a href="sms:+17203105829&body=Hello%20Bob!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Text Bob Yates</a> at 720.310.5829</p>
+                <p><a href="sms:+13038184128&body=Hello%20Mirabai!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Text Mirabai Nagle</a> at 303.818.4128</p>
+                <p><a href="sms:+17206108580&body=Hello%20Adam!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Text Adam Swetlick</a> at 720.610.8580</p>
+                <p><a href="sms:+17206019977&body=Hello%20Mark!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Text Mark Wallach</a> at 720.601.9977</p>
+                <p><a href="sms:+13035012439&body=Hello%20Mary!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Text Mary Dolo-Young</a> at 303.501.2439</p>
+                <p><a href="sms:+17209841863&body=Hello%20Aaron!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Text Aaron Brockett</a> at 720.984.1863</p>
+                <p><a href="sms:+17207893234&body=Hello%20Junie!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Text Junie Joseph</a> at 720.789.3234</p>
+                <p><a href="sms:+17206010163&body=Hello%20Rachel!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Text Rachel Young</a> at 720.601.0163</p>
+                <p>Thank you, we greatly appreciate your help in conveying the importance of this matter with Council. </p>
+            </div>;
+    }
+
+    return <div>
+              <p><a     href="sms:+13034166130;body=Hello%20Sam!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Text Sam Weaver</a> at 303.416.6130</p>
+              <p><a href="sms:+17203105829;body=Hello%20Bob!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Text Bob Yates</a> at 720.310.5829</p>
+              <p><a href="sms:+13038184128;body=Hello%20Mirabai!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Text Mirabai Nagle</a> at 303.818.4128</p>
+              <p><a href="sms:+17206108580;body=Hello%20Adam!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Text Adam Swetlick</a> at 720.610.8580</p>
+              <p><a href="sms:+17206019977;body=Hello%20Mark!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Text Mark Wallach</a> at 720.601.9977</p>
+              <p><a href="sms:+13035012439;body=Hello%20Mary!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Text Mary Dolo-Young</a> at 303.501.2439</p>
+              <p><a href="sms:+17209841863;body=Hello%20Aaron!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Text Aaron Brockett</a> at 720.984.1863</p>
+              <p><a href="sms:+17207893234;body=Hello%20Junie!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Text Junie Joseph</a> at 720.789.3234</p>
+              <p><a href="sms:+17206010163;body=Hello%20Rachel!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Text Rachel Young</a> at 720.601.0163</p>
+              <p>Thank you, we greatly appreciate your help in conveying the importance of this matter with Council. </p>
+          </div>;
+  }
+</script>
+
+<p><a href="sms:+13034166130&body=Hello%20Sam!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Text Sam Weaver</a> at 303.416.6130</p>
+<p><a href="sms:+17203105829&body=Hello%20Bob!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Text Bob Yates</a> at 720.310.5829</p>
+<p><a href="sms:+13038184128&body=Hello%20Mirabai!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Text Mirabai Nagle</a> at 303.818.4128</p>
+<p><a href="sms:+17206108580&body=Hello%20Adam!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Text Adam Swetlick</a> at 720.610.8580</p>
+<p><a href="sms:+17206019977&body=Hello%20Mark!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Text Mark Wallach</a> at 720.601.9977</p>
+<p><a href="sms:+13035012439&body=Hello%20Mary!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Text Mary Dolo-Young</a> at 303.501.2439</p>
+<p><a href="sms:+17209841863&body=Hello%20Aaron!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Text Aaron Brockett</a> at 720.984.1863</p>
+<p><a href="sms:+17207893234&body=Hello%20Junie!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Text Junie Joseph</a> at 720.789.3234</p>
+<p><a href="sms:+17206010163&body=Hello%20Rachel!%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Text Rachel Young</a> at 720.601.0163</p>
+<p>Thank you, we greatly appreciate your help in conveying the importance of this matter with Council. </p>
+
+Mark Wallach 			7206019977
+Mary Dolo-Young		3035012439
+Aaron Brockett 			7209841863
+Junie Joseph				7207893234
+Rachel Friend				7206010163
+
+<p><a href="mailto:council@bouldercolorado.gov?&cc=heroldm@bouldercolorado.gov&subject=The%20Need%20for%20police%20Oversight&body=Hello%20Council%20and%20Chief%20Herold,%0A%0ADo%20you%20remember%20that%20time%20the%20community%20had%20to%20protest%20racial%20profiling%20and%20police%20violence%20after%20Boulder%20PD%20drew%20weapons%20on%20Zayd%20Atkinson%20for%20cleaning%20his%20yard%20while%20black?%0A%0ADo%20you%20remember%20the%20outcome%20of%20all%20that?%0A%0AYeah,%20me%20neither.%20Because,%20as%20far%20as%20I%20can%20tell,%20there's%20still%20no%20outcome,%20no%20oversight.%0A%0AToday%20seems%20like%20as%20good%20a%20day%20as%20any%20to%20ask.%20It’s%20been%20well%20over%20a%20year.%20What%20are%20you%20going%20to%20do?%20When%20is%20it%20going%20to%20be%20done?%20Why%20has%20it%20taken%20so%20long?%0A%0AThank you%0A-">Do you remember that time the community had to protest racial profiling and police violence after Boulder PD drew weapons on Zayd Atkinson for cleaning his yard while black?</a></p>
+
+
+<p><a href="sms:+15122935529&body=Hello%20MVA!">Text MVA!</a></p>
+
+<p><a href="sms:+15122935529;body=Hello%20MVA!">Text MVA!</a></p>
+
+<p><a href="sms:+15122935529?body=Hello%20MVA!">Text MVA!</a></p>
+
+<p><a href="sms:+15122935529&?body=Hello%20MVA!">Text MVA!</a></p>
+
+<p><a href="sms:+15122935529?&body=Hello%20MVA!">Text MVA!</a></p>

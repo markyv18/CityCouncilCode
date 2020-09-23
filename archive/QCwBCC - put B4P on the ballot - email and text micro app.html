@@ -1,0 +1,166 @@
+<!--
+
+EMAIL MESSAGE "code" BELOW - the EMAIL and TEXT "code" snipets go into seperate <divs> on the micro site
+
+URL for making HTML text: https://www.textfixer.com/html/encode-url.php
+
+ -->
+<p id="randomSubject"></p>
+
+<!-- <p><a
+  href="mailto:council@bouldercolorado.gov?&subject=____________&body=______________%0A-">1) ______</a></p>
+<p><a
+  href="mailto:council@bouldercolorado.gov?&subject=____________&body=______________%0A-">2) ______</a></p>
+<p><a
+  href="mailto:council@bouldercolorado.gov?&subject=____________&body=______________%0A-">3) ______</a></p>
+<p><a
+  href="mailto:council@bouldercolorado.gov?&subject=____________&body=______________%0A-">4) ______</a></p> -->
+
+  <p id="emailCouncil"></p>
+
+  <script>
+
+       var randomSubject = [
+         "Democracy%20Depends%20on%20You%21",
+         "Can%20I%20count%20on%20your%20support%3F",
+         "Open%20to%20learn%20how%20Boulder%20Council%20can%20help%20during%20COVID",
+         "A%20quick%20note%20of%20support%20for%20our%20Boulder%20neighborhoods",
+         "Please%20Help%20Improve%20Boulder%27s%20resiliency%20with%20this%20one%20step",
+         "Boulder%20voters%20are%20watching%20-%20will%20you%20help%3F",
+         "What%20do%20Gov.%20Polis%2C%20Boco%20Dems%2C%20and%20EFAA%20have%20in%20common%3F",
+         "The%20world%20is%20watching%3A%20democracy%20in%20Boulder",
+         "Please%20put%20Bedrooms%20Are%20For%20People%20on%20the%20ballot",
+         "Let%20us%20vote%20on%20this%20ballot%20measure%20in%20November",
+         "Please%20support%20direct%20democracy",
+         "Please%20protect%20peoples%27%20right%20to%20vote",
+         "Put%20citizens%27%20measures%20on%20the%202020%20ballot",
+         "Protect%20our%20right%20to%20democracy",
+         "Allow%20direct%20democracy%20this%20year",
+         "Errors%20by%20the%20city%20shouldn%27t%20prevent%20democracy",
+         "Place%20Bedrooms%20Are%20For%20People%20on%20the%202020%20ballot",
+         "Give%20people%20a%20voice%20in%20occupancy%20limits",
+         "Let%20people%20vote%20on%20occupancy%20limits",
+         "Will%20you%20champion%20direct%20democracy%3F",
+         "Please%20restore%20my%20faith%20in%20Boulder%27s%20government",
+         "Protect%20our%201st%20Amendment%20rights",
+         "Trust%20Boulder%20voters%20to%20decide",
+         "Let%20Us%20Vote%21",
+         "Thanks%20for%20upholding%20democracry%20here%20in%20Boulder",
+         "I%20support%20direct%20democracy",
+         "Voters%20should%20decide%20on%20ballot%20measures",
+         "Don%27t%20engage%20in%20voter%20suppression",
+         "Don%27t%20mess%20with%20direct%20democracy",
+         "Do%20not%20change%20Boulder%20ballot%20language",
+         "2020%20Election%3A%20There%27s%20no%20better%20test%20for%20ballot%20measures%20than%20an%20election%20with%20the%20most%20community%20participation",
+         "Democracy%20isn%27t%20political",
+         "Democracy%20Is%20Not%20Optional",
+         "Don%27t%20%22opt%20out%22%20of%20democracy",
+         "Restore%20our%20trust%20in%20Boulder%27s%20leadership"
+       ];
+
+       var randomBody = [
+         "Please%20place%20Bedrooms%20Are%20For%20People%20on%20the%202020%20ballot%20as%20it%20is%20currently%20written.",
+         "We%20are%20relying%20on%20Boulder%20City%20Council%20to%20preserve%20direct%20democracy%20in%20our%20community.",
+         "Please%20respect%20the%20wishes%20of%20thousands%20of%20Boulder%20voters%20who%27ve%20risked%20their%20health%20to%20sign%20the%20Bedrooms%20are%20for%20People%20petition.",
+         "Boulder%20voters%20are%20smart%20and%20deserve%20the%20right%20to%20decide%20on%20this%20issue%20for%20themselves.",
+         "Please%20show%20your%20respect%20for%20your%20community%20and%20trust%20that%20Boulder%20voters%20know%20what%20is%20best%20for%20us.",
+         "Campaign%20volunteers%20have%20risked%20their%20health%20to%20give%20Boulder%20the%20opportunity%20to%20vote%20on%20this.",
+         "Both%20Boulder%20homeowners%20and%20renters%20benefit%20from%20more%20flexible%20housing%20arrangements%20when%20the%20unexpected%20happens.%20",
+         "Colorado%20is%20facing%20its%20highest%20unemployment%20rates%20and%20evictions%20are%20looming.%20Please%20take%20this%20small%20step%20to%20legalize%20pooling%20resources%20to%20survive.%20",
+         "Please%20honor%20the%20initial%20guidelines%20provided%20to%20the%20Bedrooms%20Are%20For%20People%20campaign%20organizers%20and%20place%20the%20initiative%20on%20the%202020%20ballot%20as%20it%20is%20currently%20written.",
+         "Please%20honor%20Boulder%20voters%27%20constitutional%20rights%20to%20bypass%20elected%20officials%20with%20citizen-led%20initiatives%20by%20placing%20Bedrooms%20Are%20For%20People%20on%20the%202020%20ballot%20as%20it%20is%20currently%20written.",
+         "Let%27s%20demonstrate%20progressive%20leadership%20and%20protect%20democracy%20in%20our%20community%3B%20Boulder%20voters%20deserve%20the%20right%20to%20decide%20on%20this%20issue%20in%20November.",
+         "Thousands%20of%20Boulder%20residents%20are%20want%20to%20vote%20on%20this%20measure%20in%202020.",
+         "We%27re%20trying%20to%20tell%20you%20that%20this%20is%20a%20critical%20housing%20issue%20to%20address%20this%20year.",
+         "Anti-discrimination%20laws%20belong%20in%20Boulder%27s%20city%20charter.",
+         "Demonstrate%20your%20commitment%20to%20direct%20democracy%20even%20in%20extraordinary%20circumstances.",
+         "Citizen%20ballot%20initiatives%20are%20our%20last%20resort%20when%20our%20elected%20representatives%20have%20ignored%20our%20demands%20for%20change.",
+         "Boulder%20voters%20are%20smart.%20Let%20us%20decide%20on%20these%20measures%20for%20ourselves%21",
+         "Let%20voters%20consider%20the%20merits%20of%20these%20two%20initiatives%20and%20decide%20for%20ourselves%20whether%20or%20not%20we%20want%20to%20vote%20%22Yes%22%20or%20%22No%22%20on%20the%20November%20ballot.",
+         "This%20is%20about%20whether%20the%20council%20decides%20to%20dismantle%20direct%20democracy%20or%20uphold%20it.%20",
+         "Just%20as%20the%20First%20Amendment%20of%20the%20U.S.%20Constitution%20protects%20the%20right%20of%20the%20people%20%E2%80%9Cto%20petition%20the%20Government%20for%20a%20redress%20of%20grievances%2C%E2%80%9D%20Council%20doesn%27t%20have%20the%20legal%20right%20to%20reject%20citizen%20petitions.",
+         "We%20know%20that%20our%20right%20to%20direct%20democracy%20is%20a%20pillar%20of%20our%20local%2C%20state%2C%20and%20national%20democratic%20process.%20",
+         "It%20is%20critical%20that%20our%20elected%20officials%20honor%20this%20important%20form%20of%20direct%20democracy%2C%20regardless%20of%20your%20political%20affiliations%20or%20personal%20views%20about%20the%20merits%20of%20a%20ballot%20initiative.",
+         "I%20hope%20that%20the%20Boulder%20Council%20will%20take%20quick%20action%20to%20preserve%20direct%20democracy.",
+         "Stop%20ignoring%20the%20clear%20and%20present%20danger%20that%20person-to-person%20signature%20gathering%20is%20posing%20to%20our%20community%27s%20health%20during%20this%20pandemic.",
+         "The%20city%20has%20repeatedly%20misinformed%20and%20misdirected%20several%20volunteer%20committees.",
+         "Whether%20or%20not%20you%20think%20these%20measures%20%E2%80%9Cdeserve%E2%80%9D%20to%20be%20on%20the%20November%202020%20ballot%20is%20irrelevant.",
+         "Get%20signature-gatherers%20off%20the%20streets%20and%20prevent%20the%20spread%20of%20COVID-19%20by%20placing%20this%20measure%20on%20the%20ballot%20now.",
+         "Don%27t%20you%20think%20Boulder%20voters%20are%20smart%20enough%20to%20decide%20on%20this%20for%20ourselves%3F",
+         "Council%20hasn%27t%20addressed%20occupancy%20limits%20in%20over%2045%20years%E2%80%94it%27s%20time%20to%20let%20the%20people%20decide.",
+         "I%20want%20the%20opportunity%20to%20vote%20on%20this%20measure%20this%20fall.",
+         "We%20expect%20our%20elected%20officials%20to%20take%20responsibility%20for%20their%20mistakes.",
+         "I%20ask%20you%20as%20our%20representatives%20to%20accept%20responsibility%20for%20the%20city%27s%20repeated%20mistakes.",
+         "Let%20Boulder%20voters%20make%20up%20our%20own%20minds%20about%20this%20issues%20this%20year.",
+         "Will%20you%20commit%20to%20protecting%20direct%20democracy%20in%20Boulder%3F",
+         "I%20signed%20the%20petition%20and%20I%20expect%20to%20be%20able%20to%20vote%20on%20that%20ballot%20language%20in%202020.",
+         "Don%27t%20tinker%20with%20the%20ballot%20language.",
+         "It%27s%20time%20for%20the%20city%20to%20own%20up%20to%20its%20mistakes.",
+         "The%20city%20bungled%20the%20whole%20petitioning%20process%2C%20so%20the%20least%20you%20can%20do%20is%20place%20the%20measures%20on%20the%20ballot.",
+         "The%202020%20election%20turnout%20will%20be%20huge.%20There%27s%20no%20better%20way%20to%20find%20out%20if%20Boulder%20supports%20or%20opposes%20these%20measures%20than%20by%20letting%20people%20vote%20on%20them%20this%20year."
+       ];
+
+       var str1 = "<a href='mailto:council@bouldercolorado.gov?bcc=markvanakkeren@gmail.com&subject=";
+       var str2 = "&body=";
+       var str3 = "%0A%0A-'><b>Let's write an email to council!</b></a>";
+       var str1plusSubject = str1.concat(randomSubject[Math.floor(Math.random()*randomSubject.length)]);
+       var str1plusSubjectplus2 = str1plusSubject.concat(str2);
+       var str1plusSubjectplus2plusBody = str1plusSubjectplus2.concat(randomBody[Math.floor(Math.random()*randomBody.length)]);
+       var mailToLink = str1plusSubjectplus2plusBody.concat(str3);
+
+     document.getElementById("emailCouncil").innerHTML = mailToLink;
+  </script>
+
+<!--
+
+TEXT MESSAGE "code" BELOW - these two sets of "code" go into seperate <div> snipets on the micro site
+
+ -->
+
+
+ <p>Earlier this year we learned that a number of Councilors do not read their emails, additionally we’ve learned that other members of Council are much more receptive to text messages or phone calls.  If you feel comfortable doing so please let them know about the issues you care about in our city.  Like the pre-populated emails above, simply click the link, make any adjustments you'd like, sign it at the bottom and then hit send!</p>
+ <p>p.s. If you have an Android device tap "Android Text" and if you have an iOS device tap "iOS Text".  Still working on cleaning this up :)</p>
+
+ <p>
+   <a href="sms:+13034166130?body=_________%0A%0AThank you%0A-">Android Text</a> or
+   <a href="sms:+13034166130&body=_________%0A%0AThank you%0A-">iOS Text</a> Sam Weaver</p>
+
+<p>
+   <a href="sms:+17203105829?body=_________%0A%0AThank you%0A-">Android Text</a> or
+   <a href="sms:+17203105829&body=_________%0A%0AThank you%0A-">iOS Text</a> Bob Yates</p>
+
+<p>
+   <a href="sms:+13038184128?body=_________%0A%0AThank you%0A-">Android Text</a> or
+   <a href="sms:+13038184128&body=_________%0A%0AThank you%0A-">iOS Text</a> Mirabai Nagle</p>
+
+<p>
+   <a href="sms:+17206108580?body=_________%0A%0AThank you%0A-">Android Text</a> or
+   <a href="sms:+17206108580&body=_________%0A%0AThank you%0A-">iOS Text </a>Adam Swetlick</p>
+
+<p>
+   <a href="sms:+17206019977?body=_________%0A%0AThank you%0A-">Android Text</a> or
+   <a href="sms:+17206019977&body=_________%0A%0AThank you%0A-">iOS Text</a> Mark Wallach</p>
+
+<p>
+    <a href="sms:+13035012439?body=_________%0A%0AThank you%0A-">Android Text</a> or
+    <a href="sms:+13035012439&body=_________%0A%0AThank you%0A-">iOS Text </a>Mary Dolo-Young </p>
+
+<p>
+    <a href="sms:+17209841863?body=_________%0A%0AThank you%0A-">Android Text</a> or
+    <a href="sms:+17209841863&body=_________%0A%0AThank you%0A-">iOS Text</a> Aaron Brockett</p>
+
+<p>
+    <a href="sms:+17207893234?body=_________%0A%0AThank you%0A-">Android Text</a> or
+    <a href="sms:+17207893234&body=_________%0A%0AThank you%0A-">iOS Text</a> Junie Joseph</p>
+
+<p>
+    <a href="sms:+17206010163?body=_________%0A%0AThank you%0A-">Android Text</a> or
+    <a href="sms:+17206010163&body=_________%0A%0AThank you%0A-">iOS Text </a> Rachel Friend</p>
+
+<p>Thank you, we greatly appreciate your help in conveying the importance of this matter to Council. </p>
+
+
+<!-- SMS TEST "code" below  -->
+
+
+<p><a href="sms:+ <ENTER YOUR PHONE NUMBER HERE> &body=Hello%20ME!">HI SELF!</a></p>
