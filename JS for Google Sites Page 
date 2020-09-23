@@ -1,0 +1,98 @@
+<!--
+
+EMAIL MESSAGE "code" BELOW - the EMAIL and TEXT "code" snipets go into seperate <divs> on the micro site
+
+ -->
+<p><a
+  href="mailto:council@bouldercolorado.gov?bcc=_______@gmail.com&subject=____________&body=______________%0A-">1) ______</a></p>
+<p><a
+  href="mailto:council@bouldercolorado.gov?bcc=_______@gmail.com&subject=____________&body=______________%0A-">2) ______</a></p>
+<p><a
+  href="mailto:council@bouldercolorado.gov?bcc=_______@gmail.com&subject=____________&body=______________%0A-">3) ______</a></p>
+<p><a
+  href="mailto:council@bouldercolorado.gov?bcc=_______@gmail.com&subject=____________&body=______________%0A-">4) ______</a></p>
+
+<!-- OR!!!!!!!!!! -->
+
+<p id="emailCouncil"></p>
+<script>
+
+     var randomSubject = [
+       "Subject%20Line%20Options%20Go%20Here",
+       "Subject%20Line%20Options%20Go%20Here"
+     ];
+
+     var randomBody = [
+       "Email%20Body%20Options%20Go%20Here",
+       "Email%20Body%20Options%20Go%20Here"
+     ];
+
+     var str1 = "<a href='mailto:council@bouldercolorado.gov?bcc=_____________@gmail.com&subject=";
+     var str2 = "&body=";
+     var str3 = "%0A%0A-'><b>Let's write an email to council!</b></a>";
+     var str1plusSubject = str1.concat(randomSubject[Math.floor(Math.random()*randomSubject.length)]);
+     var str1plusSubjectplus2 = str1plusSubject.concat(str2);
+     var str1plusSubjectplus2plusBody = str1plusSubjectplus2.concat(randomBody[Math.floor(Math.random()*randomBody.length)]);
+     var mailToLink = str1plusSubjectplus2plusBody.concat(str3);
+
+   document.getElementById("emailCouncil").innerHTML = mailToLink;
+</script>
+
+
+
+
+
+
+<!--
+TEXT MESSAGE "code" BELOW - these two sets of "code" go into seperate <div> snipets on the micro site
+
+MVA NOTE: HAVEN'T BUILT JS AUTO GENERATOR FOR TEXT MSG FUNCTION YET
+-->
+
+
+ <p>This spring we learned that a number of Councilors do not read their emails, additionally we’ve learned that other members of Council are much more receptive to text messages or phone calls.  If you feel comfortable doing so please let them know about the issues you care about in our city.  Like the pre-populated emails above, simply click the link, make any adjustments you'd like, sign it at the bottom and then hit send!</p>
+ <p>p.s. If you have an Android device tap "Android Text" and if you have an iOS device tap "iOS Text".  Still working on cleaning this up :)</p>
+
+ <p>
+   <a href="sms:+13034166130?body=_________%0A%0AThank you%0A-">Android Text</a> or
+   <a href="sms:+13034166130&body=_________%0A%0AThank you%0A-">iOS Text</a> Sam Weaver</p>
+
+<p>
+   <a href="sms:+17203105829?body=_________%0A%0AThank you%0A-">Android Text</a> or
+   <a href="sms:+17203105829&body=_________%0A%0AThank you%0A-">iOS Text</a> Bob Yates</p>
+
+<p>
+   <a href="sms:+13038184128?body=_________%0A%0AThank you%0A-">Android Text</a> or
+   <a href="sms:+13038184128&body=_________%0A%0AThank you%0A-">iOS Text</a> Mirabai Nagle</p>
+
+<p>
+   <a href="sms:+17206108580?body=_________%0A%0AThank you%0A-">Android Text</a> or
+   <a href="sms:+17206108580&body=_________%0A%0AThank you%0A-">iOS Text </a>Adam Swetlick</p>
+
+<p>
+   <a href="sms:+17206019977?body=_________%0A%0AThank you%0A-">Android Text</a> or
+   <a href="sms:+17206019977&body=_________%0A%0AThank you%0A-">iOS Text</a> Mark Wallach</p>
+
+<p>
+    <a href="sms:+13035012439?body=_________%0A%0AThank you%0A-">Android Text</a> or
+    <a href="sms:+13035012439&body=_________%0A%0AThank you%0A-">iOS Text </a>Mary Dolo-Young </p>
+
+<p>
+    <a href="sms:+17209841863?body=_________%0A%0AThank you%0A-">Android Text</a> or
+    <a href="sms:+17209841863&body=_________%0A%0AThank you%0A-">iOS Text</a> Aaron Brockett</p>
+
+<p>
+    <a href="sms:+17207893234?body=_________%0A%0AThank you%0A-">Android Text</a> or
+    <a href="sms:+17207893234&body=_________%0A%0AThank you%0A-">iOS Text</a> Junie Joseph</p>
+
+<p>
+    <a href="sms:+17206010163?body=_________%0A%0AThank you%0A-">Android Text</a> or
+    <a href="sms:+17206010163&body=_________%0A%0AThank you%0A-">iOS Text </a> Rachel Friend</p>
+
+<p>Thank you, we greatly appreciate your help in conveying the importance of this matter to Council. </p>
+
+
+<!-- SMS TEST "code" below  -->
+
+
+<p><a href="sms:+ <ENTER YOUR PHONE NUMBER HERE> &body=Hello%20ME!">HI SELF!</a></p>
