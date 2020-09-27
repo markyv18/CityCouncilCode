@@ -1,5 +1,5 @@
 # CityCouncilCode
-random smattering of HTML/CSS/JS code tools for scaling engagement with Boulder City Council 
+random smattering of HTML/JS code tools for scaling engagement with Boulder City Council 
 
 There are two sets of tools in the file, one is an email concatenator for seeding emails to council instantly. 
 Many constituents aren't ever sure where to begin when it comes to chatting with council. This tool automagically 
