@@ -1,19 +1,12 @@
 <!--
 
-EMAIL MESSAGE "code" BELOW - the EMAIL and TEXT "code" snipets go into seperate <divs> on the micro site
+EMAIL MESSAGE JS code immediately BELOW - then the HTML EMAIL -- at the bottom you can find the code for the 
+TEXTING feature -- the code snipets go into seperate <divs> on the micro site
 
  -->
-<p><a
-  href="mailto:council@bouldercolorado.gov?bcc=_______@gmail.com&subject=____________&body=______________%0A-">1) ______</a></p>
-<p><a
-  href="mailto:council@bouldercolorado.gov?bcc=_______@gmail.com&subject=____________&body=______________%0A-">2) ______</a></p>
-<p><a
-  href="mailto:council@bouldercolorado.gov?bcc=_______@gmail.com&subject=____________&body=______________%0A-">3) ______</a></p>
-<p><a
-  href="mailto:council@bouldercolorado.gov?bcc=_______@gmail.com&subject=____________&body=______________%0A-">4) ______</a></p>
-
-<!-- OR!!!!!!!!!! -->
-
+ 
+ <!-- JS random subject and body generator -->
+ 
 <p id="emailCouncil"></p>
 <script>
 
@@ -39,8 +32,17 @@ EMAIL MESSAGE "code" BELOW - the EMAIL and TEXT "code" snipets go into seperate 
 </script>
 
 
+<!-- HTML static subject and body generator -->
+ 
 
-
+<p><a
+  href="mailto:council@bouldercolorado.gov?bcc=_______@gmail.com&subject=____________&body=______________%0A-">1) ______</a></p>
+<p><a
+  href="mailto:council@bouldercolorado.gov?bcc=_______@gmail.com&subject=____________&body=______________%0A-">2) ______</a></p>
+<p><a
+  href="mailto:council@bouldercolorado.gov?bcc=_______@gmail.com&subject=____________&body=______________%0A-">3) ______</a></p>
+<p><a
+  href="mailto:council@bouldercolorado.gov?bcc=_______@gmail.com&subject=____________&body=______________%0A-">4) ______</a></p>
 
 
 <!--
